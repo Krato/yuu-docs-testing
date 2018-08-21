@@ -3,8 +3,8 @@ module.exports = {
 	description: 'A VuePress theme that supports multiple color themes and some other useful features.',
 	themeConfig: {
 		algolia: {
-			apiKey: '4079057a463910010648434b4a9e0c5c',
-			indexName: 'Yuu Testing',
+			// apiKey: '4079057a463910010648434b4a9e0c5c',
+			// indexName: 'Yuu Testing',
 		},
 		repo: 'danktuary/vuepress-theme-yuu',
 		editLinks: true,
