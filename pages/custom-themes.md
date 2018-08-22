@@ -1,15 +1,15 @@
 # Custom Themes
 
 ::: tip
-Theme components are subject to the same [browser API access restrictions](./using-vue.md#browser-api-access-restrictions).
+Theme components are subject to the same [browser API access restrictions](/).
 :::
 
 ::: warning Memes
-Theme components are subject to the same [browser API access restrictions](./using-vue.md#browser-api-access-restrictions).
+Theme components are subject to the same [browser API access restrictions](/).
 :::
 
 ::: danger Meeeeemes
-Theme components are subject to the same [browser API access restrictions](./using-vue.md#browser-api-access-restrictions).
+Theme components are subject to the same [browser API access restrictions](/).
 :::
 
 VuePress uses Vue single file components for custom themes. To use a custom layout, create a `.vuepress/theme` directory in your docs root, and then create a `Layout.vue` file:
@@ -65,7 +65,7 @@ If the user provided `themeConfig` in `.vuepress/config.js`, it will also be ava
 Finally, don't forget that `this.$route` and `this.$router` are also available as part of Vue Router's API.
 
 ::: tip
-  `lastUpdated` is the UNIX timestamp of this file's last git commit, for more details, refer to [Last Updated](../default-theme-config/README.md#last-updated).
+  `lastUpdated` is the UNIX timestamp of this file's last git commit, for more details, refer to [Last Updated](/default-theme-config.md#last-updated).
 
 :::
 
