@@ -5715,6 +5715,10 @@ uuid@^3.1.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
+v-click-outside@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/v-click-outside/-/v-click-outside-1.0.5.tgz#3eb590394e062fa9a4256cbe678600557f7c87d4"
+
 v8-compile-cache@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
@@ -5804,6 +5808,12 @@ vuepress-html-webpack-plugin@^3.2.0:
     tapable "^1.0.0"
     toposort "^1.0.0"
     util.promisify "1.0.0"
+
+vuepress-theme-yuu@danktuary/vuepress-theme-yuu:
+  version "1.0.0"
+  resolved "https://codeload.github.com/danktuary/vuepress-theme-yuu/tar.gz/818153e1174d7226196bb256ff2af3ba355713d3"
+  dependencies:
+    v-click-outside "^1.0.5"
 
 vuepress@^0.14.2:
   version "0.14.2"

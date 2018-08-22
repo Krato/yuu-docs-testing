@@ -1,6 +1,7 @@
 module.exports = {
 	title: 'Vuepress Theme Yuu',
 	description: 'A VuePress theme that supports multiple color themes and some other useful features.',
+	theme: 'yuu',
 	themeConfig: {
 		repo: 'danktuary/yuu-docs-testing',
 		docsDir: 'pages',
