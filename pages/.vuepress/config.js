@@ -2,54 +2,64 @@ module.exports = {
 	title: 'Vuepress Theme Yuu',
 	description: 'A VuePress theme that supports multiple color themes and some other useful features.',
 	themeConfig: {
-		algolia: {
-			// apiKey: '4079057a463910010648434b4a9e0c5c',
-			// indexName: 'Yuu Testing',
-		},
-		repo: 'danktuary/vuepress-theme-yuu',
+		repo: 'danktuary/yuu-docs-testing',
+		docsDir: 'pages',
 		editLinks: true,
 		sidebarDepth: 3,
+		lastUpdated: true,
 		nav: [
 			{
 				text: 'Dropdown menu',
 				items: [
-					{ text: 'Home', link: '/' },
+					{
+						text: 'Home',
+						link: '/',
+					},
 					{
 						text: 'Stuff',
 						items: [
-							{ text: 'More text', link: '/more-text.md' },
-							{ text: 'More text', link: '/more-text.md' },
-							{ text: 'More text', link: '/more-text.md' },
+							{
+								text: 'More text',
+								link: '/more-text.md',
+							},
 						],
 					},
-					{ text: 'Markdown', link: '/markdown.md' },
+					{
+						text: 'Markdown',
+						link: '/markdown.md',
+					},
 				],
 			},
-			{ text: 'Main guide', link: '/' },
-			{ text: 'Commando', link: '/more-text.md' },
-			{ text: 'Red', link: '/markdown.md' },
-			{ text: 'External', link: 'https://google.com' },
+			{
+				text: 'Main guide',
+				link: '/',
+			},
+			{
+				text: 'External link',
+				link: 'https://i.imgur.com/uphwMrZ.jpg',
+			},
 		],
 		sidebar: [
 			{
 				title: 'Home',
 				collapsable: false,
-				children: [
-					'/',
-				],
+				children: ['/'],
 			},
 			{
-				title: 'Home 2',
+				title: 'Markdown stuff',
 				collapsable: false,
 				children: [
 					'more-text',
+					'markdown',
+					'markdown-vuepress',
+					'markdown-it',
 				],
 			},
 			{
-				title: 'Home 3',
+				title: 'Misc pages',
 				children: [
 					'custom-themes',
-					'markdown',
+					'default-theme-config',
 				],
 			},
 		],
