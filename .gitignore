@@ -1,4 +1,2 @@
 node_modules
-pages/.vuepress/eventBus.js
-pages/.vuepress/theme/*
-pages/.vuepress/components/*
+pages/.vuepress/dist
