@@ -5811,7 +5811,7 @@ vuepress-html-webpack-plugin@^3.2.0:
 
 vuepress-theme-yuu@danktuary/vuepress-theme-yuu:
   version "1.0.0"
-  resolved "https://codeload.github.com/danktuary/vuepress-theme-yuu/tar.gz/24ac0fcea7c8c637e1b948218edb1f8c34b629d3"
+  resolved "https://codeload.github.com/danktuary/vuepress-theme-yuu/tar.gz/476577be01c952b31027f3db6f51d3ca4d6af4c2"
   dependencies:
     vue-click-outside "^1.0.7"
 
