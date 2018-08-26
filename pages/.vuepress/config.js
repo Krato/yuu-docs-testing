@@ -3,6 +3,9 @@ module.exports = {
 	description: 'A VuePress theme that supports multiple color themes and some other useful features.',
 	theme: 'yuu',
 	themeConfig: {
+		yuu: {
+			colorThemes: ['blue', 'red'],
+		},
 		repo: 'danktuary/yuu-docs-testing',
 		docsDir: 'pages',
 		editLinks: true,
