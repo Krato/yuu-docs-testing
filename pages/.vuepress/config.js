@@ -13,59 +13,61 @@ module.exports = {
 		lastUpdated: true,
 		nav: [
 			{
-				text: 'Dropdown menu',
-				items: [
-					{
-						text: 'Home',
-						link: '/',
-					},
-					{
-						text: 'Stuff',
-						items: [
-							{
-								text: 'More text',
-								link: '/more-text.md',
-							},
-						],
-					},
-					{
-						text: 'Markdown',
-						link: '/markdown.md',
-					},
-				],
+				text: 'Home',
+				link: '/',
 			},
 			{
-				text: 'Main guide',
-				link: '/',
+				text: 'Main Guide',
+				link: '/more-text',
+			},
+			{
+				text: 'Commando',
+				link: '/commando/',
+			},
+			{
+				text: 'Red',
+				link: '/red/',
 			},
 			{
 				text: 'External link',
 				link: 'https://i.imgur.com/uphwMrZ.jpg',
 			},
 		],
-		sidebar: [
-			{
-				title: 'Home',
-				collapsable: false,
-				children: ['/'],
-			},
-			{
-				title: 'Markdown stuff',
-				collapsable: false,
-				children: [
-					'more-text',
-					'markdown',
-					'markdown-vuepress',
-					'markdown-it',
-				],
-			},
-			{
-				title: 'Misc pages',
-				children: [
-					'custom-themes',
-					'default-theme-config',
-				],
-			},
-		],
+		sidebar: {
+			'/commando/': [
+				'',
+				'more-content',
+				'final-content',
+			],
+			'/red/': [
+				'',
+				'more-content',
+				'final-content',
+			],
+			'/': [
+				{
+					title: 'Home',
+					collapsable: false,
+					children: ['/', 'custom/'],
+				},
+				{
+					title: 'Markdown stuff',
+					collapsable: false,
+					children: [
+						'more-text',
+						'markdown',
+						'markdown-vuepress',
+						'markdown-it',
+					],
+				},
+				{
+					title: 'Misc pages',
+					children: [
+						'custom-themes',
+						'default-theme-config',
+					],
+				},
+			],
+		},
 	},
 };
